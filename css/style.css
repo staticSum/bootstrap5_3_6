@@ -1,0 +1,9 @@
+/** Hero Section **/
+.hero-image {
+    max-height: 400px;
+}
+@media (max-width: 768px) {
+    .hero-image{
+        height: 400px;
+    }
+}
