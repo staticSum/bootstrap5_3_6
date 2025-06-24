@@ -10,6 +10,7 @@
 .hero-image {
     max-height: 400px;
 }
+
 @media (max-width: 768px) {
     .hero-image{
         height: 400px;
@@ -21,6 +22,7 @@
     font-weight: bold;
     
 }
+
 .exclusive-image{
     height: 400px;
     width: 80%;
@@ -34,4 +36,30 @@
     .cajaSection{
         margin-left: 100px;
     }
+}
+
+.margenIzquierdo{
+    margin-right: 10%;
+}
+
+/** Bienvenidos **/
+.bordeButton{
+    border:black 1px solid;
+}
+
+.morado{
+    background-color: #3848d7;
+}
+
+.marginTop100{
+    margin-top: 100px;
+}
+
+.marginLeft300{
+    margin-left: 320px;
+    margin-bottom: 200px;
+}
+
+.positionBienvenidos{
+    padding-top: 10%;
 }

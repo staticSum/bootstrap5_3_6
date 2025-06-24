@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!--- Navbar --->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -17,8 +19,9 @@
                 <img class="img-fluid" src="images/logo.jpeg" alt="">
             </a>
             <!---Botón Hamburguesa--->
-            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,33 +50,75 @@
                         <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-user"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa-solid fa-bag-shopping"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>    
+    </nav>
+
     <!--- Hero Section --->
     <section class="position-relative">
         <img class="img-fluid w-100 hero-image" src="images/playa_1.jpeg" alt="playa de los cabos Baja California.">
         <div class="position-absolute translate-middle-y text-white top-50 px-4 px-lg-5 mt-lg-5">
             <h5 class="display-5">Exclusividad y Plusvalía</h5>
-            <p class="lead">Descubre la mejor opción para un terreno en real del mar, a solo 25 minutos del ayuntamiento de San José del Cabo</p>
+            <p class="lead">Descubre la mejor opción para un terreno en real del mar, a solo 25 minutos del ayuntamiento
+                de San José del Cabo</p>
             <button type="button" class="btn btn-primary">Comprar</button>
         </div>
     </section>
+
     <!--- Exclusividad -->
-    <section class="position-relative text-center mt-3">
-       <h2>CATEGORIAS</h2>
-       <img class="img-fluid exclusive-image" src="images/casas_playa.jpeg" alt="casa en la playa">
-       <div class="container position-absolute translate-middle-y top-50 px-lg-5 px-5 cajaSection">
-        <p class="letra_ancha text-black-50">Aparta un terreno en la primera etapa del proyecto !</p>
-        <p class="letra_ancha">Terrenos campestrres de 250 mts cuadrados con vista al mar</p>
-       </div>
+    <section>
+        <h2 class="text-center mt-5 mt-lg-5">CATEGORIAS</h2>
+        <section class="position-relative text-center mt-3 d-flex justify-content-center">
+            <img class="img-fluid exclusive-image" src="images/casas_playa.jpeg" alt="casa en la playa">
+            <div class="container position-absolute translate-middle-y top-50 px-lg-5 px-5 cajaSection">
+                <div class="margenIzquierdo">
+                    <p class="letra_ancha text-black-50">Aparta un terreno en la primera etapa del proyecto !</p>
+                    <p class="letra_ancha">Terrenos campestrres de 250 mts cuadrados con vista al mar</p>
+                </div>
+            </div>
+        </section>
     </section>
 
-<script src="js/bootstrap.bundle.min.js"></script>   
-<script src="js/all.min.js"></script> 
-<script src="js/index.js"></script>    
+    <!-- Bienvenidos -->
+    <section class="container mt-2 mt-lg-2">
+        <div class="row">
+            <div class="col-md-6 mt-3 mt-lg-5 positionBienvenidos">
+                <h2 class="fs-2 fw-bold">Bienvenidos</h2>
+                <h3 class="fs-3">Tu Casa Group Holdings LLC</h3>
+                <p>
+                    Grupo Tu Casa ® ofrece el más alto retorno de Inversión Real
+                    del Mar, Cabo del Este, a solo 25 minutos de San José del
+                    Cabo, BCS.</p>
+                <div class="mt-lg-5">
+                    <button type="button" class="btn btn-outline-light bordeButton text-dark rounded-pill fs-6">
+                        Geolocalización
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 mt-3 mt-lg-5">
+                <section class="position-relative text-white">
+                    <img class="img-fluid" src="images/casas_playa.jpeg" alt="casas en la playa">
+                    <div class="position-absolute translate-middle-y top-50">
+                        <h2 class="morado fw-bold">350+</h2>
+                    </div>
+                    <div class="position-absolute translate-middle-y top-50">
+                        <p class="marginTop100">Lotes a la venta</p>
+                    </div>
+                    <div class="position-absolute translate-middle-y">
+                        <p class="fs-1 marginLeft300">40 lotes ya vendidos</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
